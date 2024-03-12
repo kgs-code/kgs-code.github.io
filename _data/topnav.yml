@@ -3,8 +3,8 @@
 topnav:
 - title: Topnav
   items:
-    - title: GitHub
-      external_url: https://github.com/tomjoht/documentation-theme-jekyll
+    - title: KGS 홈페이지
+      external_url: https://www.kgs.or.kr
     - title: 법
       url: /news
 

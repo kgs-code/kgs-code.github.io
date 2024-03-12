@@ -5,24 +5,24 @@ topnav:
   items:
     - title: GitHub
       external_url: https://github.com/tomjoht/documentation-theme-jekyll
-    - title: News
+    - title: 법
       url: /news
 
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Jekyll Help
+    - title: 가스 3법
       folderitems:
-        - title: Jekyll Talk
+        - title: 고압가스안전관리법
           external_url: https://talk.jekyllrb.com
-        - title: Jekyll documentation
+        - title: 액화석유의 안전관리 및 사업법
           external_url: http://jekyllrb.com/docs/home/
-        - title: Jekyll on Stack Overflow
+        - title: 도시가스 사업법
           external_url: http://stackoverflow.com/questions/tagged/jekyll
         - title: Jekyll on my blog
           external_url: http://idratherbewriting.com/category-jekyll/
-    - title: Products
+    - title: 코드
       folderitems:
         - title: Jekyll Documentation Theme
           url: /mydoc_introduction.html

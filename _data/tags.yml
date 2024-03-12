@@ -2,16 +2,10 @@
 # If you are using the createtag script, don't leave a blank line at the end of this file.
 # In other words, the last line must be the last tag in the allowed-tags list.
 allowed-tags:
-  - getting_started
-  - content_types
-  - navigation
-  - formatting
-  - publishing
-  - single_sourcing
-  - special_layouts
-  - collaboration
-  - news
-  - troubleshooting
-  - mobile
+  - 냉동제조시설
+  - 고압가스시설
+  - 특정설비
+  - 도시가스
+  - LPG
 
-# Copyright 2021 Google LLC
+# Copyright LEE HYUN SOO

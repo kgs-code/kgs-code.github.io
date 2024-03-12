@@ -6,7 +6,7 @@ output: web
 topnav_title: KGS-CODE
 # this appears on the top navigation bar next to the home button
 
-site_title: Jekyll theme for documentation
+site_title: 코드의 이해를 돕기위한 문서입니다
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: Copyright 2021 Google LLC

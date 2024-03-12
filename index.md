@@ -1,65 +1,60 @@
 ---
-title: "이 문서를 사용하는 방법"
+title: "기술검토"
 keywords: sample homepage
-tags: [getting_started]
+tags: [냉동제조시설]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
+summary: 냉동제조시설 기술검토시 필요한 서류와 적용해야할 법, 코드, 지침을 총 망라 했으며 추가적으로 질문이 있거나 의견이 있으면 댓글 달아주시면 됩니다.
 ---
 
-{% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
+{% include note.html content="검사원으로서 일을 할 때, 법과 코드 그리고 지침을 별개로 살펴야 할 내용들을 하나로 정리함으로써 어떤 검사를 하더라도 빠르고 정확하게 하기 위한 목적을 가는 문서 " %}
 
-## Build the Theme
+## 사업소개
+<pre>
+SK인천석유화학에 냉동기 추가 설치하여 원유 정제과정에서 온도를 낮추기 위한 목적으로 설치하려고 합니다.
+</pre>
 
-Follow these instructions to build the theme.
+`사업소개는 무엇을 생산하고는 지에 대한 내용이 반드시 들어가야 한다.`
 
-### 1. Download the theme
-
-First, download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
-
-### 2. Install Jekyll
-
-If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
-
-* [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
-* [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
-
-### 3. Install Bundler
-
-In case you haven't installed Bundler, install it:
-
+### 1. 회사명
 ```
-gem install bundler
+ [SK인천석유화학](https://www.skincheonpetrochem.com/). SK인천석유화학은 **원유를 정제**하여 LPG, 휘발유, 항공유, 경유를 비롯해 화학제품의 원료가 되는 납사를 생산하며, 납사를 원료로 파라자일렌 등 화학제품을 생산합니다.
 ```
 
-You'll want [Bundler](http://bundler.io/) to make sure all the Ruby gems needed work well with your project. Bundler sorts out dependencies and installs missing gems or matches up gems with the right versions based on gem dependencies.
-
-### 4. Option 1: Build the Theme (*without* the github-pages gem) {#option1}
-
-Use this option if you're not planning to publish your Jekyll site using [Github Pages](https://pages.github.com/).
-
-Bundler's Gemfile specifies how project dependencies are managed. Although this project includes a Gemfile, this theme doesn't have any dependencies beyond core Jekyll. The Gemfile is used to list gems needed for publishing on Github Pages. **If you're not planning to have Github Pages build your Jekyll project, delete these two files from the theme's root directory:**
-
-* Gemfile
-* Gemfile.lock
-
-If you've never run Jekyll on your computer (you can check with `jekyll --version`), you may need to install the jekyll gem:
+### 2. 사업지 주소
 
 ```
-gem install jekyll
+SK인천석유화학㈜ 인천광역시 서구 봉수대로 415(서인천우체국 사서함 17호)
+사업자등록번호 137-86-33904 전화 032-570-5151
 ```
 
-Now run jekyll serve (first change directories (`cd`) to where you downloaded the project):
+냉동기가 설치되어 있는 주소지가 필요하며, 이 때 사업자등록증과 전화번호 등이 필요하다.
+
+
+### 3. 사업 목적
+
+사업목적은 냉동기를 **왜 설치하는 지**에 대해 쓰는 부분
+
+### 4. 냉동용 특정설비 목록
 
 ```
-jekyll serve
+* 압축기 / 모델명 / 설계압력
+* 응축기 / 모델명 / 설계압력
+* 증발기 / 모델명 / 설계압력
+* 유분리기 / 모델명 / 설계압력
 ```
 
-### 4. Option 2: Build the Theme (*with* the github-pages gem) {#option2}
+특정설비 목록에는 단순히 리스트만 나열하는 것이 아니라 `모델명`과 `설계압력`이 표현돼야 한다.
 
-If you *are* in fact publishing on Github Pages, leave the Gemfile and Gemfile.lock files in the theme.The Gemfile tells Jekyll to use the github-pages gem. **However, note that you cannot use the normal `jekyll serve` command with this gem due to dependency conflicts between the latest version of Jekyll and Github Pages** (which are noted [briefly here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)).
 
-You need Bundler to resolve these dependency conflicts. Use Bundler to install all the needed Ruby gems:
+### 5. 안전밸브 
+
+```
+* 설치위치 / 설치구경 / 세팅압력 / 갯수
+* 설치위치 / 설치구경 / 세팅압력 / 갯수
+* 설치위치 / 설치구경 / 세팅압력 / 갯수
+* 설치위치 / 설치구경 / 세팅압력 / 갯수
+```
 
 ```
 bundle update

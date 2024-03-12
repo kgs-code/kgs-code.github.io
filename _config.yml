@@ -33,9 +33,9 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: Jekyll documentation theme
+feedback_subject_line: 검사 편의 향상을 위한 문서
 
-feedback_email: tomjoht@gmail.com
+feedback_email: hslee@kgs.or.kr
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
@@ -106,7 +106,7 @@ sidebars:
 - product2_sidebar
 - other
 
-description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features."
+description: "검사 편의를 향상시키기 위한 문서입니다"
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only

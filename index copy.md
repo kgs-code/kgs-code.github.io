@@ -1,8 +1,9 @@
 ---
-title: 기술검토
+title: "기술검토"
+keywords: sample homepage
+tags: [냉동제조시설]
 sidebar: mydoc_sidebar
-permalink: mydoc_introduction.html
-folder: mydoc
+permalink: index.html
 summary: 냉동제조시설 기술검토시 필요한 서류와 적용해야할 법, 코드, 지침을 총 망라 했으며 추가적으로 질문이 있거나 의견이 있으면 댓글 달아주시면 됩니다.
 ---
 

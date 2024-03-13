@@ -19,12 +19,21 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: 개요
+    output: web, pdf
+    folderitems:
+
+    - title: 들어가며..
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
   - title: 냉동제조시설
     output: web, pdf
     folderitems:
 
     - title: 기술검토
-      url: /index.html
+      url: /mydoc_introduction.html
       output: web, pdf
       type: homepage
 
@@ -42,7 +51,7 @@ entries:
 
     - title: 안전관리규정
       url: /mydoc_support.html
-      output: web, pdf
+      output: web, pdf      
 
   - title: 고압가스시설
     output: web, pdf

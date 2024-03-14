@@ -9,39 +9,14 @@ permalink: mydoc_posts.html
 folder: mydoc
 ---
 
-## About posts
+## KGS FS452(가스도매사업 정압기(지) 및 밸브기지의 시설·기술·검사 기준) 개정안 항목별 개정사유
 
-Posts are typically used for blogs or other news information because they contain a date and are sorted in reverse chronological order.
-
-You create a post by adding a file in the \_posts folder that is named yyyy-mm-dddd-permalink.md, which might be 2016-02-25-my-latest-updates.md. You can use any number of subfolders here that you want.
-
-Posts use the post.html layout in the \_layouts folder when you are viewing the post.
-
-The news.html file in the root directory shows a reverse chronological listing of the 10 latest posts
-
-## Allowed frontmatter
-
-The frontmatter you can use with posts is as follows:
-
-```yaml
----
-title: My sample post
-tags: content_types
-keywords: pages, authoring, exclusion, frontmatter
-sidebar: mydoc_sidebar
-permalink: mydoc_pages.html
-summary: "This is some summary frontmatter for my sample post."
----
-```
-
-| Frontmatter | Required? | Description |
+| 현   행 | 개정안·내용 및 사유 | 개정사유 |
 |-------------|-------------|-------------|
-| **title** | Required | The title for the page |
-| **tags** | Optional | Tags for the page. Make all tags single words, with underscores if needed. Separate them with commas. Enclose the whole list within brackets. Also, note that tags must be added to \_data/tags_doc.yml to be allowed entrance into the page. This prevents tags from becoming somewhat random and unstructured. You must create a tag page for each one of your tags following the sample pattern in the tabs folder. (Tag pages aren't automatically created.)  |
-| **keywords** | Optional | Synonyms and other keywords for the page. This information gets stuffed into the page's metadata to increase SEO. The user won't see the keywords, but if you search for one of the keywords, it will be picked up by the search engine.  |
-| **sidebar** | Required | Refers to the sidebar data file for this page. Don't include the ".yml" file extension for the sidebar &mdash; just provide the file name. If no sidebar is specified, this value will inherit the `default` property set in your \_config.yml file for the page's frontmatter. |
-| **permalink**| Required | This theme uses permalinks to facilitate the linking. You specify the permalink want for the page, and the \_site output will put the page into the root directory when you publish. Follow the same convention here as you do with page permalinks -- list the file name followed by the .html extension. |
-| **summary** | Optional | A 1-2 word sentence summarizing the content on the page. This gets formatted into the summary section in the page layout. Adding summaries is a key way to make your content more scannable by users (check out [Jakob Nielsen's site](http://www.nngroup.com/articles/corporate-blogs-front-page-structure/) for a great example of page summaries.) The only drawback with summaries is that you can't use variables in them. |
+| 2.5.8.2.1 배관 지하 매설<br>(1) 배관은 그 외면으로부터 지하의 다른 시설물과 0.3m 이상의 거리를 유지한다.<br>(2) 지표면으로부터 배관의 외면까지의 매설 깊이는 1.2m 이상으로 한다.<br>(3) (2)에 따른 매설 깊이를 유지할 수 없는 경우에는 다음과 같은 방호구조물 안에 설치한다.<br>(3-1) 직경 9㎜이상의 철근을 가로×세로 400㎜ 이상으로 결속하고, 두께120㎜ 이상의 구조로 한 철근콘크리트 방호구조물<br>(3-2) 가스배관 외부에 콘크리트를 타설하는 경우에는 고무판 등을 사용하여 배관의 피복 부위와 콘크리트가 직접 접촉하지 않도록 한다.<br>(4) ~ (9) <생 략>| 2.5.8.2.1 ------<br>(1) ------------------------------------------------.<br>(2) -------------------------------------------------.<br>(3) ------------------------------------------------.<br>(3-1) ---------- 400㎜ 이내로 --------<br>(3-2) ------------------------------------------------<br>(4) ~ (9) <현행과 같음> | ㅇ 지침의 코드화(′13.07.26) 시 오기한 내용을 수정하여 기준을 명확히 하고자 함  |
+
+## KGS FS452(가스도매사업 정압기(지) 및 밸브기지의 시설·기술·검사 기준) 개정안 항목별 개정사유
+
 
 
 {% include links.html %}

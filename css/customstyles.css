@@ -1,5 +1,5 @@
 body {
-    font-size:15px;
+    font-size:18px;
 }
 
 .bs-callout {
@@ -242,7 +242,7 @@ ul#results-container a:hover {
 
 div#toc ul li {
     margin: 8px 0px 8px 22px;
-    font-size: 90%;
+    font-size: 100%;
     list-style: square;
 }
 div#toc ul {
@@ -366,15 +366,15 @@ background-color: #347DBE;
 }
 
 .nav li a {
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 28px;
     padding: 2px 10px;
     background-color: #f1f1f1;
 }
 
 .nav > li > a {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 30px;
     padding: 4px 10px;
 }
 
@@ -423,6 +423,7 @@ ul#mysidebar {
 span.projectTitle {
     font-family: Helvetica;
     font-weight: bold;
+    font-size: 25px;
 }
 
 .footer {

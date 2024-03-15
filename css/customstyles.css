@@ -423,7 +423,7 @@ ul#mysidebar {
 span.projectTitle {
     font-family: Helvetica;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .footer {
@@ -1170,6 +1170,9 @@ h4.panel-title {
 @media (max-width: 1200px) {
     .navbar-header {
         float: none;
+        block-size: auto;
+        padding: 20px;
+        line-height: normal;
     }
     .navbar-left,.navbar-right {
         float: none !important;

@@ -3,10 +3,10 @@
 entries:
 - title: sidebar
   product: 분류 Ver
-  version: 1.1
+  version: 1.2
   folders:
 
-  - title:
+  - title: aaa
     output: pdf
     type: frontmatter
     folderitems:
@@ -28,6 +28,18 @@ entries:
       output: web, pdf
       type: homepage
 
+  - title: 도시가스
+    output: web, pdf
+    folderitems:
+
+    - title: 매립 특정가스사용시설 착안사항
+      url: /mydoc_faq_layout.html
+      output: web, pdf
+
+    - title: KGS 451 개정사유
+      url: /mydoc_posts.html
+      output: web, pdf
+    
   - title: 냉동제조시설
     output: web, pdf
     folderitems:
@@ -35,22 +47,22 @@ entries:
     - title: 기술검토
       url: /mydoc_introduction.html
       output: web, pdf
-      type: homepage
+      type: web, pdf
 
     - title: 중간검사
-      url: /mydoc_introduction.html
-      output: web, pdf
-
-    - title: 완성검사
-      url: /mydoc_supported_features.html
-      output: web, pdf
-
-    - title: 정기자율검사
       url: /mydoc_about.html
       output: web, pdf
 
+    - title: 완성검사
+      url: /mydoc_icons.html
+      output: web, pdf
+
+    - title: 정기자율검사
+      url: /mydoc_labels.html
+      output: web, pdf
+
     - title: 안전관리규정
-      url: /mydoc_support.html
+      url: /mydoc_hyperlinks.html
       output: web, pdf      
 
   - title: 고압가스시설
@@ -58,45 +70,17 @@ entries:
     folderitems:
 
     - title: 기술검토
-      url: /mydoc_release_notes_60.html
-      output: web, pdf
-
-    - title: 중간검사
-      url: /mydoc_release_notes_50.html
-      output: web, pdf
-
-    - title: 완성검사
-      url: /mydoc_release_notes_50.html
-      output: web, pdf
-
-  - title: 도시가스
-    output: web, pdf
-    folderitems:
-
-    - title: KGS 451 개정사유
-      url: /mydoc_posts.html
-      output: web, pdf
-
-
-  - title: 액화석유가스
-    output: web, pdf
-    folderitems:
-    
-    - title: Sidebar navigation
-      url: /mydoc_sidebar_navigation.html
-      output: web, pdf
-
-    - title: YAML tutorial in the context of Jekyll
       url: /mydoc_yaml_tutorial.html
       output: web, pdf
 
-    - title: Tags
+    - title: 중간검사
       url: /mydoc_tags.html
       output: web, pdf
 
-    - title: Series
+    - title: 완성검사
       url: /mydoc_series.html
       output: web, pdf
+
 
 
 

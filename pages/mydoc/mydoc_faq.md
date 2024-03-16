@@ -15,7 +15,7 @@ folder: mydoc
 <p>
 ① 산업통상자원부 유권해석으로「도시가스사업법 시행규칙」<br>② 제20조의2제1항제2호가목에 따른 특정가스사용시설(이하 ‘매립특정’) 중<br> ③ 월사용예정량이 산정되지 않는 가정용 가스사용시설이 매립 특정가스사용시설 대상에서 제외<br><br>
 
- → 기존 매립특정 관리대상 재확인을 통해 가정용 시설을 검사 대상에서 제외하고, 매립특정시설에 대한 검사 및 전산관리방법을 안내하고자함.</p>
+ <span class="label label-primary">Primary</span> 기존 매립특정 관리대상 재확인을 통해 가정용 시설을 검사 대상에서 제외하고, 매립특정시설에 대한 검사 및 전산관리방법을 안내하고자함.</p>
 
 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
@@ -64,11 +64,11 @@ folder: mydoc
 
 </div>
 <!-- /.panel-group -->
-▣ 기존 매립특정시설
+<span class="label label-info">Info</span> 기존 매립특정시설
 
-  ▷ 법 제정(’13.7.25) 후 매립특정시설의 최초 정기검사 주기(10년)가 도래함에 따라 검사대상 및 전산 정비를 통해 정기검사 대비 필요
+<span class="label label-default">Default</span> 법 제정(’13.7.25) 후 매립특정시설의 최초 정기검사 주기(10년)가 도래함에 따라 검사대상 및 전산 정비를 통해 정기검사 대비 필요
 
-   → 다음의 확인 절차에 따라 지역별 매립특정대상 등 재확인 후 자료 작성·회신
+<span class="label label-danger">Danger</span> 다음의 확인 절차에 따라 지역별 매립특정대상 등 재확인 후 자료 작성·회신
 {% include important.html content="《 확인 절차 》" %}
 
 

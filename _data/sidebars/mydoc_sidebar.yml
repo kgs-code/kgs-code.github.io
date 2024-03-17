@@ -32,14 +32,28 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: 매립 특정가스사용시설 착안사항
-      url: /mydoc_faq_layout.html
-      output: web, pdf
-
     - title: KGS 451 개정사유
       url: /mydoc_posts.html
-      output: web, pdf
-    
+      output: web
+
+      subfolders:
+      - title: 착안사항
+        output: web
+        subfolderitems:
+
+        - title: 매립 특정가스사용시설 착안사항
+          url: /mydoc_faq_layout.html
+          output: web
+
+        - title: 전기방식검사업무처리지침 개정 관련 착안사항
+          url: /tag_navigation.html
+          output: web
+       
+        - title: 매몰형정압기 등 정압기 시공감리업무 착안사항 안내
+          url: /mydoc_troubleshooting.html
+          output: web
+
+
   - title: 냉동제조시설
     output: web, pdf
     folderitems:

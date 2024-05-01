@@ -3,7 +3,7 @@ repository: tomjoht/documentation-theme-jekyll
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: 법과 코드 그리고 지침을 한 번에.. (made by. 이현수)
+topnav_title: KGS 위키백과.. (made by. 이현수)
 # this appears on the top navigation bar next to the home button
 
 site_title: 코드의 이해를 돕기위한 문서입니다

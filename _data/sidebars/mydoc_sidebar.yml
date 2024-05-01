@@ -2,8 +2,8 @@
 
 entries:
 - title: sidebar
-  product: 분류 Ver
-  version: 1.1
+  product: KGS 위키백과
+  version: 1.0
   folders:
 
   - title:
@@ -19,85 +19,64 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: 개요
-    output: web, pdf
-    folderitems:
-
-    - title: 들어가며..
-      url: /index.html
-      output: web, pdf
-      type: homepage
-
-  - title: 냉동제조시설
-    output: web, pdf
-    folderitems:
-
-    - title: 기술검토
-      url: /mydoc_introduction.html
-      output: web, pdf
-      type: homepage
-
-    - title: 중간검사
-      url: /mydoc_introduction.html
-      output: web, pdf
-
-    - title: 완성검사
-      url: /mydoc_supported_features.html
-      output: web, pdf
-
-    - title: 정기자율검사
-      url: /mydoc_about.html
-      output: web, pdf
-
-    - title: 안전관리규정
-      url: /mydoc_support.html
-      output: web, pdf      
-
-  - title: 고압가스시설
-    output: web, pdf
-    folderitems:
-
-    - title: 기술검토
-      url: /mydoc_release_notes_60.html
-      output: web, pdf
-
-    - title: 중간검사
-      url: /mydoc_release_notes_50.html
-      output: web, pdf
-
-    - title: 완성검사
-      url: /mydoc_release_notes_50.html
-      output: web, pdf
 
   - title: 도시가스
-    output: web, pdf
+    output: web
     folderitems:
 
-    - title: KGS 451 개정사유
-      url: /mydoc_posts.html
-      output: web, pdf
+    - title: 시공감리(법)
+      url: /index.html
+      output: web
+      type: homepage
 
+      subfolders:
+      - title: 분류
+        output: web
+        subfolderitems:
 
-  - title: 액화석유가스
-    output: web, pdf
-    folderitems:
-    
-    - title: Sidebar navigation
-      url: /mydoc_sidebar_navigation.html
-      output: web, pdf
+        - title: 사업소외 배관
+          url: /mydoc_icons.html
+          output: web
 
-    - title: YAML tutorial in the context of Jekyll
-      url: /mydoc_yaml_tutorial.html
-      output: web, pdf
+        - title: 정압기
+          url: /tag_navigation.html
+          output: web
 
-    - title: Tags
-      url: /mydoc_tags.html
-      output: web, pdf
+    - title: 시공감리(코드)
+      url: /mydoc_support.html
+      output: web
+      type: homepage
 
-    - title: Series
-      url: /mydoc_series.html
-      output: web, pdf
+      subfolders:
+      - title: 분류
+        output: web
+        subfolderitems:
 
+        - title: 사업소외 배관
+          url: /tag_content_types.html
+          output: web
+
+        - title: 정압기
+          url: /tag_troubleshooting.html
+          output: web
+
+    - title: 시공감리(지침)
+      url: /mydoc_about.html
+      output: web
+      type: homepage
+
+      subfolders:
+      - title: 분류
+        output: web
+        subfolderitems:
+
+        - title: 사업소외 배관
+          url: /tag_content_types.html
+          output: web
+
+        - title: 정압기
+          url: /tag_troubleshooting.html
+          output: web
 
 
 # Copyright 2021 Google LLC
